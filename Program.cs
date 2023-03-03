@@ -7,3 +7,7 @@ for (int i = 0; i < resultArray.Length; i++)
     numberOfSimbols = numberOfSimbols - 3;
     resultArray[i] = getElements[i].Substring(0, getElements[i].Length - numberOfSimbols);
 }
+for (int j = 0; j < resultArray.Length; j++)
+{
+    Console.Write(resultArray[j] + " ");
+}
